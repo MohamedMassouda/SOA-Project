@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/mnt/7C2885E92885A2AE/Programming/Java/Spring/Ecommerce/src/main/java</OriginalElement>
+  <nodes>
+    <node x="3576.5" y="5038.5">com.example.ecommerce.dto.user.UserDto</node>
+    <node x="2990.0" y="1714.5">com.example.ecommerce.models.Role</node>
+    <node x="1435.0" y="6814.5">com.example.ecommerce.controllers.AuthController</node>
+    <node x="1677.5" y="6647.0">com.example.ecommerce.controllers.GlobalExceptionHandler</node>
+    <node x="3906.5" y="6659.0">com.example.ecommerce.EcommerceApplication</node>
+    <node x="3936.5" y="6138.5">com.example.ecommerce.dto.user.LoginDto</node>
+    <node x="165.0" y="6198.5">com.example.ecommerce.controllers.CartController</node>
+    <node x="1371.0" y="2099.5">com.example.ecommerce.repositories.ProductRepository</node>
+    <node x="2561.5" y="6869.0">com.example.ecommerce.repositories.CartItemRepository</node>
+    <node x="3020.5" y="3858.5">com.example.ecommerce.models.Client</node>
+    <node x="2360.5" y="6659.0">com.example.ecommerce.config.CorsConfig</node>
+    <node x="410.5" y="1811.5">com.example.ecommerce.repositories.CategoryRepository</node>
+    <node x="3054.0" y="5026.5">com.example.ecommerce.utils.JwtUtil</node>
+    <node x="1167.0" y="4570.5">com.example.ecommerce.controllers.ProductController</node>
+    <node x="1555.0" y="6066.5">com.example.ecommerce.models.OrderItem</node>
+    <node x="799.0" y="6802.5">com.example.ecommerce.controllers.OrderController</node>
+    <node x="3256.5" y="2086.5">com.example.ecommerce.dto.orders.CheckoutRequest</node>
+    <node x="2990.5" y="2390.5">com.example.ecommerce.models.User</node>
+    <node x="2472.0" y="3429.0">com.example.ecommerce.repositories.ClientRepository</node>
+    <node x="652.5" y="3218.5">com.example.ecommerce.dto.cart.CartDto</node>
+    <node x="2216.0" y="6851.5">com.example.ecommerce.errors.CartNotFoundException</node>
+    <node x="1283.5" y="3979.5">com.example.ecommerce.repositories.CartRepository</node>
+    <node x="2933.0" y="6150.5">com.example.ecommerce.dto.category.CreateCategoryDto</node>
+    <node x="3830.0" y="3762.5">com.example.ecommerce.dto.product.CreateProductDto</node>
+    <node x="1739.5" y="3266.5">com.example.ecommerce.services.ProductService</node>
+    <node x="2685.0" y="6634.5">com.example.ecommerce.config.SecurityConfig</node>
+    <node x="-117.0" y="3942.5">com.example.ecommerce.controllers.CategoryController</node>
+    <node x="147.5" y="4870.5">com.example.ecommerce.dto.orders.OrderDto</node>
+    <node x="488.0" y="3991.5">com.example.ecommerce.errors.InsufficientStockException</node>
+    <node x="2713.0" y="3870.5">com.example.ecommerce.dto.category.CategoryDto</node>
+    <node x="2649.0" y="4486.5">com.example.ecommerce.models.Cart</node>
+    <node x="1241.5" y="6646.5">com.example.ecommerce.dto.cart.UpdateCartItemQuantity</node>
+    <node x="2436.5" y="5750.5">com.example.ecommerce.config.JwtRequestFiltering</node>
+    <node x="3075.5" y="5750.5">com.example.ecommerce.config.ApplicationConfig</node>
+    <node x="1870.0" y="2679.5">com.example.ecommerce.errors.NegativeIntegerException</node>
+    <node x="2256.0" y="3798.5">com.example.ecommerce.models.CartItem</node>
+    <node x="2056.5" y="2050.5">com.example.ecommerce.dto.cart.AddToCartRequest</node>
+    <node x="2212.5" y="1194.5">com.example.ecommerce.models.Category</node>
+    <node x="-104.5" y="-13.5">com.example.ecommerce.dto.product.ProductDto</node>
+    <node x="2374.5" y="4619.5">com.example.ecommerce.errors.UserAlreadyExists</node>
+    <node x="1124.5" y="3411.5">com.example.ecommerce.errors.ProductNotFoundException</node>
+    <node x="492.0" y="2594.5">com.example.ecommerce.services.CategoryService</node>
+    <node x="971.0" y="3991.5">com.example.ecommerce.errors.ClientNotFoundException</node>
+    <node x="1609.5" y="3906.5">com.example.ecommerce.models.OrderStatus</node>
+    <node x="943.0" y="5159.5">com.example.ecommerce.repositories.OrderRepository</node>
+    <node x="1047.0" y="6162.5">com.example.ecommerce.services.OrderService</node>
+    <node x="3540.0" y="6138.5">com.example.ecommerce.services.UserService</node>
+    <node x="2505.0" y="5159.5">com.example.ecommerce.errors.EmailInvalidException</node>
+    <node x="845.5" y="2390.5">com.example.ecommerce.dto.cart.CartItemDto</node>
+    <node x="462.5" y="4990.5">com.example.ecommerce.services.CartService</node>
+    <node x="1836.5" y="5654.5">com.example.ecommerce.dto.user.SignupDto</node>
+    <node x="3053.5" y="746.5">com.example.ecommerce.models.Permission</node>
+    <node x="286.0" y="3146.5">com.example.ecommerce.dto.orders.OrderItemDto</node>
+    <node x="2315.0" y="2390.5">com.example.ecommerce.models.Product</node>
+    <node x="3686.5" y="6814.5">com.example.ecommerce.controllers.UserController</node>
+    <node x="1396.5" y="5738.5">com.example.ecommerce.dto.ErrorResponse</node>
+    <node x="3350.0" y="4619.5">com.example.ecommerce.repositories.UserRepository</node>
+    <node x="-132.0" y="5171.5">com.example.ecommerce.errors.EmptyCartException</node>
+    <node x="2245.5" y="5146.5">com.example.ecommerce.dto.AuthResponse</node>
+    <node x="2085.5" y="6138.5">com.example.ecommerce.services.AuthService</node>
+    <node x="1769.5" y="4894.5">com.example.ecommerce.models.Order</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.example.ecommerce.services.OrderService" target="com.example.ecommerce.repositories.ClientRepository" relationship="TO_ONE">
+      <point x="107.0" y="-140.5" />
+      <point x="1368.0" y="6123.0" />
+      <point x="1361.0" y="6123.0" />
+      <point x="1361.0" y="5283.0" />
+      <point x="1701.0" y="5283.0" />
+      <point x="1701.0" y="4443.0" />
+      <point x="2561.0" y="4443.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.example.ecommerce.models.Order" target="com.example.ecommerce.models.OrderItem" relationship="CREATE">
+      <point x="-105.75" y="308.5" />
+      <point x="1875.25" y="5563.0" />
+      <point x="1638.0" y="5563.0" />
+      <point x="-83.0" y="-236.5" />
+    </edge>
+    <edge source="com.example.ecommerce.dto.orders.OrderDto" target="com.example.ecommerce.dto.orders.OrderItemDto" relationship="TO_MANY">
+      <point x="0.0" y="-332.5" />
+      <point x="281.0" y="4843.0" />
+      <point x="461.0" y="4843.0" />
+      <point x="461.0" y="4163.0" />
+      <point x="458.5" y="4163.0" />
+      <point x="57.5" y="296.5" />
+    </edge>
+    <edge source="com.example.ecommerce.services.CartService" target="com.example.ecommerce.errors.ProductNotFoundException" relationship="CREATE">
+      <point x="-109.25" y="-212.5" />
+      <point x="571.75" y="4963.0" />
+      <point x="621.0" y="4963.0" />
+      <point x="621.0" y="4323.0" />
+      <point x="1261.0" y="4323.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="com.example.ecommerce.controllers.UserController" target="com.example.ecommerce.services.UserService" relationship="TO_ONE">
+      <point x="0.0" y="-68.5" />
+      <point x="3841.0" y="6643.0" />
+      <point x="3921.0" y="6643.0" />
+      <point x="3921.0" y="5703.0" />
+      <point x="3630.5" y="5703.0" />
+      <point x="-90.5" y="-164.5" />
+    </edge>
+    <edge source="com.example.ecommerce.services.AuthService" target="com.example.ecommerce.models.User" relationship="CREATE">
+      <point x="-107.75" y="-164.5" />
+      <point x="2193.25" y="5723.0" />
+      <point x="2621.0" y="5723.0" />
+      <point x="2621.0" y="5283.0" />
+      <point x="2981.0" y="5283.0" />
+      <point x="2981.0" y="4423.0" />
+      <point x="3241.0" y="4423.0" />
+      <point x="3241.0" y="3083.0" />
+      <point x="3246.25" y="3083.0" />
+      <point x="85.25" y="332.5" />
+    </edge>
+    <edge source="com.example.ecommerce.services.OrderService" target="com.example.ecommerce.errors.InsufficientStockException" relationship="CREATE">
+      <point x="-107.0" y="-140.5" />
+      <point x="1154.0" y="6123.0" />
+      <point x="281.0" y="6123.0" />
+      <point x="281.0" y="6103.0" />
+      <point x="121.0" y="6103.0" />
+      <point x="121.0" y="4143.0" />
+      <point x="621.0" y="4143.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="com.example.ecommerce.models.Product" target="com.example.ecommerce.models.Category" relationship="TO_ONE">
+      <point x="0.0" y="-332.5" />
+      <point x="2501.0" y="2343.0" />
+      <point x="2465.25" y="2343.0" />
+      <point x="84.25" y="248.5" />
+    </edge>
+    <edge source="com.example.ecommerce.controllers.AuthController" target="com.example.ecommerce.services.AuthService" relationship="TO_ONE">
+      <point x="73.0" y="-68.5" />
+      <point x="1654.0" y="6603.0" />
+      <point x="2061.0" y="6603.0" />
+      <point x="2061.0" y="5623.0" />
+      <point x="2408.75" y="5623.0" />
+      <point x="107.75" y="-164.5" />
+    </edge>
+    <edge source="com.example.ecommerce.services.CartService" target="com.example.ecommerce.models.CartItem" relationship="CREATE">
+      <point x="-109.25" y="-212.5" />
+      <point x="571.75" y="4963.0" />
+      <point x="621.0" y="4963.0" />
+      <point x="621.0" y="4323.0" />
+      <point x="2328.5" y="4323.0" />
+      <point x="-72.5" y="224.5" />
+    </edge>
+    <edge source="com.example.ecommerce.services.UserService" target="com.example.ecommerce.models.User" relationship="CREATE">
+      <point x="90.5" y="-164.5" />
+      <point x="3811.5" y="6103.0" />
+      <point x="3801.0" y="6103.0" />
+      <point x="3801.0" y="3843.0" />
+      <point x="3241.0" y="3843.0" />
+      <point x="3241.0" y="3083.0" />
+      <point x="3246.25" y="3083.0" />
+      <point x="85.25" y="332.5" />
+    </edge>
+    <edge source="com.example.ecommerce.models.Order" target="com.example.ecommerce.models.OrderStatus" relationship="TO_ONE">
+      <point x="105.75" y="308.5" />
+      <point x="2086.75" y="5543.0" />
+      <point x="1741.0" y="5543.0" />
+      <point x="1741.0" y="4423.0" />
+      <point x="1721.0" y="4423.0" />
+      <point x="0.0" y="116.5" />
+    </edge>
+    <edge source="com.example.ecommerce.services.AuthService" target="com.example.ecommerce.models.Client" relationship="CREATE">
+      <point x="-107.75" y="-164.5" />
+      <point x="2193.25" y="5723.0" />
+      <point x="2621.0" y="5723.0" />
+      <point x="2621.0" y="5283.0" />
+      <point x="2941.0" y="5283.0" />
+      <point x="2941.0" y="4403.0" />
+      <point x="3121.0" y="4403.0" />
+      <point x="0.0" y="164.5" />
+    </edge>
+    <edge source="com.example.ecommerce.models.Client" target="com.example.ecommerce.models.User" relationship="TO_ONE">
+      <point x="0.0" y="-164.5" />
+      <point x="3121.0" y="3783.0" />
+      <point x="3075.75" y="3783.0" />
+      <point x="-85.25" y="332.5" />
+    </edge>
+    <edge source="com.example.ecommerce.models.User" target="com.example.ecommerce.models.Client" relationship="TO_ONE">
+      <point x="-85.25" y="332.5" />
+      <point x="3075.75" y="3103.0" />
+      <point x="3121.0" y="3103.0" />
+      <point x="0.0" y="-164.5" />
+    </edge>
+    <edge source="com.example.ecommerce.services.CartService" target="com.example.ecommerce.repositories.ClientRepository" relationship="TO_ONE">
+      <point x="109.25" y="-212.5" />
+      <point x="790.25" y="4963.0" />
+      <point x="881.0" y="4963.0" />
+      <point x="881.0" y="4363.0" />
+      <point x="2561.0" y="4363.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.example.ecommerce.services.CartService" target="com.example.ecommerce.errors.InsufficientStockException" relationship="CREATE">
+      <point x="-109.25" y="-212.5" />
+      <point x="571.75" y="4963.0" />
+      <point x="621.0" y="4963.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="com.example.ecommerce.services.OrderService" target="com.example.ecommerce.services.ProductService" relationship="TO_ONE">
+      <point x="107.0" y="-140.5" />
+      <point x="1368.0" y="6123.0" />
+      <point x="1361.0" y="6123.0" />
+      <point x="1361.0" y="5283.0" />
+      <point x="921.0" y="5283.0" />
+      <point x="921.0" y="4383.0" />
+      <point x="1761.0" y="4383.0" />
+      <point x="1761.0" y="4163.0" />
+      <point x="2201.0" y="4163.0" />
+      <point x="2201.0" y="3223.0" />
+      <point x="1850.25" y="3223.0" />
+      <point x="-110.75" y="-176.5" />
+    </edge>
+    <edge source="com.example.ecommerce.controllers.GlobalExceptionHandler" target="com.example.ecommerce.dto.ErrorResponse" relationship="CREATE">
+      <point x="0.0" y="-56.0" />
+      <point x="2001.0" y="6623.0" />
+      <point x="1501.0" y="6623.0" />
+      <point x="0.0" y="104.5" />
+    </edge>
+    <edge source="com.example.ecommerce.services.ProductService" target="com.example.ecommerce.services.CategoryService" relationship="TO_ONE">
+      <point x="-110.75" y="-176.5" />
+      <point x="1850.25" y="3243.0" />
+      <point x="1841.0" y="3243.0" />
+      <point x="1841.0" y="3083.0" />
+      <point x="821.0" y="3083.0" />
+      <point x="821.0" y="2563.0" />
+      <point x="566.5" y="2563.0" />
+      <point x="-74.5" y="-128.5" />
+    </edge>
+    <edge source="com.example.ecommerce.controllers.ProductController" target="com.example.ecommerce.services.ProductService" relationship="TO_ONE">
+      <point x="0.0" y="-92.5" />
+      <point x="1421.0" y="4383.0" />
+      <point x="1761.0" y="4383.0" />
+      <point x="1761.0" y="4163.0" />
+      <point x="2201.0" y="4163.0" />
+      <point x="2201.0" y="3223.0" />
+      <point x="1850.25" y="3223.0" />
+      <point x="-110.75" y="-176.5" />
+    </edge>
+    <edge source="com.example.ecommerce.controllers.CartController" target="com.example.ecommerce.services.CartService" relationship="TO_ONE">
+      <point x="0.0" y="-104.5" />
+      <point x="441.0" y="4823.0" />
+      <point x="790.25" y="4823.0" />
+      <point x="109.25" y="-212.5" />
+    </edge>
+    <edge source="com.example.ecommerce.services.AuthService" target="com.example.ecommerce.models.Cart" relationship="CREATE">
+      <point x="-107.75" y="-164.5" />
+      <point x="2193.25" y="5723.0" />
+      <point x="2621.0" y="5723.0" />
+      <point x="2621.0" y="5283.0" />
+      <point x="2781.0" y="5283.0" />
+      <point x="0.0" y="176.5" />
+    </edge>
+    <edge source="com.example.ecommerce.services.AuthService" target="com.example.ecommerce.utils.JwtUtil" relationship="TO_ONE">
+      <point x="107.75" y="-164.5" />
+      <point x="2408.75" y="5603.0" />
+      <point x="3021.0" y="5603.0" />
+      <point x="3021.0" y="5443.0" />
+      <point x="3061.0" y="5443.0" />
+      <point x="3061.0" y="5403.0" />
+      <point x="3261.0" y="5403.0" />
+      <point x="0.0" y="176.5" />
+    </edge>
+    <edge source="com.example.ecommerce.models.Role" target="com.example.ecommerce.models.Permission" relationship="TO_MANY">
+      <point x="0.0" y="-128.5" />
+      <point x="0.0" y="176.5" />
+    </edge>
+    <edge source="com.example.ecommerce.services.UserService" target="com.example.ecommerce.repositories.UserRepository" relationship="TO_ONE">
+      <point x="-90.5" y="-164.5" />
+      <point x="3630.5" y="5723.0" />
+      <point x="3501.0" y="5723.0" />
+      <point x="0.0" y="43.5" />
+    </edge>
+    <edge source="com.example.ecommerce.services.AuthService" target="com.example.ecommerce.errors.UserAlreadyExists" relationship="CREATE">
+      <point x="-107.75" y="-164.5" />
+      <point x="2193.25" y="5723.0" />
+      <point x="2621.0" y="5723.0" />
+      <point x="2621.0" y="5283.0" />
+      <point x="2481.0" y="5283.0" />
+      <point x="0.0" y="43.5" />
+    </edge>
+    <edge source="com.example.ecommerce.services.AuthService" target="com.example.ecommerce.dto.AuthResponse" relationship="CREATE">
+      <point x="-107.75" y="-164.5" />
+      <point x="2193.25" y="5723.0" />
+      <point x="2621.0" y="5723.0" />
+      <point x="2621.0" y="5283.0" />
+      <point x="2341.0" y="5283.0" />
+      <point x="0.0" y="56.5" />
+    </edge>
+    <edge source="com.example.ecommerce.models.CartItem" target="com.example.ecommerce.models.Product" relationship="TO_ONE">
+      <point x="72.5" y="224.5" />
+      <point x="2473.5" y="4303.0" />
+      <point x="2241.0" y="4303.0" />
+      <point x="2241.0" y="3403.0" />
+      <point x="2681.0" y="3403.0" />
+      <point x="2681.0" y="3083.0" />
+      <point x="2721.0" y="3083.0" />
+      <point x="2721.0" y="2363.0" />
+      <point x="2501.0" y="2363.0" />
+      <point x="0.0" y="-332.5" />
+    </edge>
+    <edge source="com.example.ecommerce.config.SecurityConfig" target="com.example.ecommerce.config.JwtRequestFiltering" relationship="TO_ONE">
+      <point x="0.0" y="-68.5" />
+      <point x="2901.0" y="5723.0" />
+      <point x="2661.0" y="5723.0" />
+      <point x="0.0" y="-92.5" />
+    </edge>
+    <edge source="com.example.ecommerce.services.CartService" target="com.example.ecommerce.errors.ClientNotFoundException" relationship="CREATE">
+      <point x="-109.25" y="-212.5" />
+      <point x="571.75" y="4963.0" />
+      <point x="621.0" y="4963.0" />
+      <point x="621.0" y="4323.0" />
+      <point x="1101.0" y="4323.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="com.example.ecommerce.controllers.OrderController" target="com.example.ecommerce.services.OrderService" relationship="TO_ONE">
+      <point x="0.0" y="-80.5" />
+      <point x="1021.0" y="6103.0" />
+      <point x="1368.0" y="6103.0" />
+      <point x="107.0" y="-140.5" />
+    </edge>
+    <edge source="com.example.ecommerce.services.ProductService" target="com.example.ecommerce.repositories.CategoryRepository" relationship="TO_ONE">
+      <point x="-110.75" y="-176.5" />
+      <point x="1850.25" y="3243.0" />
+      <point x="1841.0" y="3243.0" />
+      <point x="1841.0" y="2083.0" />
+      <point x="561.0" y="2083.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="com.example.ecommerce.services.AuthService" target="com.example.ecommerce.errors.EmailInvalidException" relationship="CREATE">
+      <point x="-107.75" y="-164.5" />
+      <point x="2193.25" y="5723.0" />
+      <point x="2621.0" y="5723.0" />
+      <point x="0.0" y="43.5" />
+    </edge>
+    <edge source="com.example.ecommerce.services.ProductService" target="com.example.ecommerce.models.Category" relationship="CREATE">
+      <point x="110.75" y="-176.5" />
+      <point x="2071.75" y="3243.0" />
+      <point x="2081.0" y="3243.0" />
+      <point x="2081.0" y="3083.0" />
+      <point x="2281.0" y="3083.0" />
+      <point x="2281.0" y="1723.0" />
+      <point x="2296.75" y="1723.0" />
+      <point x="-84.25" y="248.5" />
+    </edge>
+    <edge source="com.example.ecommerce.services.AuthService" target="com.example.ecommerce.repositories.UserRepository" relationship="TO_ONE">
+      <point x="107.75" y="-164.5" />
+      <point x="2408.75" y="5603.0" />
+      <point x="3021.0" y="5603.0" />
+      <point x="3021.0" y="5583.0" />
+      <point x="3501.0" y="5583.0" />
+      <point x="0.0" y="43.5" />
+    </edge>
+    <edge source="com.example.ecommerce.services.OrderService" target="com.example.ecommerce.dto.orders.OrderDto" relationship="CREATE">
+      <point x="-107.0" y="-140.5" />
+      <point x="1154.0" y="6123.0" />
+      <point x="281.0" y="6123.0" />
+      <point x="0.0" y="332.5" />
+    </edge>
+    <edge source="com.example.ecommerce.controllers.AuthController" target="com.example.ecommerce.dto.ErrorResponse" relationship="CREATE">
+      <point x="-73.0" y="-68.5" />
+      <point x="1508.0" y="6623.0" />
+      <point x="1501.0" y="6623.0" />
+      <point x="0.0" y="104.5" />
+    </edge>
+    <edge source="com.example.ecommerce.services.CategoryService" target="com.example.ecommerce.models.Category" relationship="CREATE">
+      <point x="74.5" y="-128.5" />
+      <point x="715.5" y="1903.0" />
+      <point x="2281.0" y="1903.0" />
+      <point x="2281.0" y="1723.0" />
+      <point x="2296.75" y="1723.0" />
+      <point x="-84.25" y="248.5" />
+    </edge>
+    <edge source="com.example.ecommerce.config.ApplicationConfig" target="com.example.ecommerce.repositories.UserRepository" relationship="TO_ONE">
+      <point x="0.0" y="-92.5" />
+      <point x="3341.0" y="5723.0" />
+      <point x="3501.0" y="5723.0" />
+      <point x="0.0" y="43.5" />
+    </edge>
+    <edge source="com.example.ecommerce.services.OrderService" target="com.example.ecommerce.services.CartService" relationship="TO_ONE">
+      <point x="107.0" y="-140.5" />
+      <point x="1368.0" y="6123.0" />
+      <point x="1361.0" y="6123.0" />
+      <point x="1361.0" y="6083.0" />
+      <point x="441.0" y="6083.0" />
+      <point x="441.0" y="4823.0" />
+      <point x="790.25" y="4823.0" />
+      <point x="109.25" y="-212.5" />
+    </edge>
+    <edge source="com.example.ecommerce.services.CartService" target="com.example.ecommerce.dto.cart.CartDto" relationship="CREATE">
+      <point x="-109.25" y="-212.5" />
+      <point x="571.75" y="4963.0" />
+      <point x="621.0" y="4963.0" />
+      <point x="621.0" y="4323.0" />
+      <point x="781.0" y="4323.0" />
+      <point x="0.0" y="224.5" />
+    </edge>
+    <edge source="com.example.ecommerce.models.Cart" target="com.example.ecommerce.models.CartItem" relationship="TO_MANY">
+      <point x="0.0" y="-176.5" />
+      <point x="2781.0" y="4383.0" />
+      <point x="2473.5" y="4383.0" />
+      <point x="72.5" y="224.5" />
+    </edge>
+    <edge source="com.example.ecommerce.models.OrderItem" target="com.example.ecommerce.models.Product" relationship="TO_ONE">
+      <point x="83.0" y="-236.5" />
+      <point x="1804.0" y="5643.0" />
+      <point x="2081.0" y="5643.0" />
+      <point x="2081.0" y="5603.0" />
+      <point x="2221.0" y="5603.0" />
+      <point x="2221.0" y="4423.0" />
+      <point x="2681.0" y="4423.0" />
+      <point x="2681.0" y="3083.0" />
+      <point x="2721.0" y="3083.0" />
+      <point x="2721.0" y="2363.0" />
+      <point x="2501.0" y="2363.0" />
+      <point x="0.0" y="-332.5" />
+    </edge>
+    <edge source="com.example.ecommerce.services.CartService" target="com.example.ecommerce.repositories.CartRepository" relationship="TO_ONE">
+      <point x="109.25" y="-212.5" />
+      <point x="790.25" y="4963.0" />
+      <point x="881.0" y="4963.0" />
+      <point x="881.0" y="4343.0" />
+      <point x="1421.0" y="4343.0" />
+      <point x="0.0" y="43.5" />
+    </edge>
+    <edge source="com.example.ecommerce.dto.cart.CartDto" target="com.example.ecommerce.dto.cart.CartItemDto" relationship="TO_MANY">
+      <point x="0.0" y="-224.5" />
+      <point x="781.0" y="3183.0" />
+      <point x="903.25" y="3183.0" />
+      <point x="-57.75" y="332.5" />
+    </edge>
+    <edge source="com.example.ecommerce.models.User" target="com.example.ecommerce.models.Role" relationship="TO_ONE">
+      <point x="-85.25" y="332.5" />
+      <point x="3075.75" y="3083.0" />
+      <point x="2961.0" y="3083.0" />
+      <point x="2961.0" y="1683.0" />
+      <point x="3161.0" y="1683.0" />
+      <point x="0.0" y="-128.5" />
+    </edge>
+    <edge source="com.example.ecommerce.models.Cart" target="com.example.ecommerce.models.Client" relationship="TO_ONE">
+      <point x="0.0" y="-176.5" />
+      <point x="2781.0" y="4363.0" />
+      <point x="2741.0" y="4363.0" />
+      <point x="2741.0" y="4203.0" />
+      <point x="2961.0" y="4203.0" />
+      <point x="2961.0" y="3803.0" />
+      <point x="3121.0" y="3803.0" />
+      <point x="0.0" y="-164.5" />
+    </edge>
+    <edge source="com.example.ecommerce.models.Client" target="com.example.ecommerce.models.Cart" relationship="TO_ONE">
+      <point x="0.0" y="-164.5" />
+      <point x="3121.0" y="3823.0" />
+      <point x="3001.0" y="3823.0" />
+      <point x="3001.0" y="4283.0" />
+      <point x="2821.0" y="4283.0" />
+      <point x="2821.0" y="4463.0" />
+      <point x="2781.0" y="4463.0" />
+      <point x="0.0" y="-176.5" />
+    </edge>
+    <edge source="com.example.ecommerce.services.ProductService" target="com.example.ecommerce.errors.NegativeIntegerException" relationship="CREATE">
+      <point x="110.75" y="-176.5" />
+      <point x="2071.75" y="3243.0" />
+      <point x="2081.0" y="3243.0" />
+      <point x="2081.0" y="3083.0" />
+      <point x="2001.0" y="3083.0" />
+      <point x="0.0" y="43.5" />
+    </edge>
+    <edge source="com.example.ecommerce.services.OrderService" target="com.example.ecommerce.repositories.OrderRepository" relationship="TO_ONE">
+      <point x="107.0" y="-140.5" />
+      <point x="1368.0" y="6123.0" />
+      <point x="1361.0" y="6123.0" />
+      <point x="1361.0" y="5283.0" />
+      <point x="1141.0" y="5283.0" />
+      <point x="0.0" y="43.5" />
+    </edge>
+    <edge source="com.example.ecommerce.models.Order" target="com.example.ecommerce.models.Client" relationship="TO_ONE">
+      <point x="105.75" y="308.5" />
+      <point x="2086.75" y="5543.0" />
+      <point x="1741.0" y="5543.0" />
+      <point x="1741.0" y="4403.0" />
+      <point x="2741.0" y="4403.0" />
+      <point x="2741.0" y="4203.0" />
+      <point x="2961.0" y="4203.0" />
+      <point x="2961.0" y="3803.0" />
+      <point x="3121.0" y="3803.0" />
+      <point x="0.0" y="-164.5" />
+    </edge>
+    <edge source="com.example.ecommerce.models.OrderItem" target="com.example.ecommerce.models.Order" relationship="TO_ONE">
+      <point x="83.0" y="-236.5" />
+      <point x="1804.0" y="5643.0" />
+      <point x="2081.0" y="5643.0" />
+      <point x="2081.0" y="5603.0" />
+      <point x="2086.75" y="5603.0" />
+      <point x="105.75" y="308.5" />
+    </edge>
+    <edge source="com.example.ecommerce.services.ProductService" target="com.example.ecommerce.repositories.ProductRepository" relationship="TO_ONE">
+      <point x="-110.75" y="-176.5" />
+      <point x="1850.25" y="3243.0" />
+      <point x="1841.0" y="3243.0" />
+      <point x="1841.0" y="2743.0" />
+      <point x="1581.0" y="2743.0" />
+      <point x="0.0" y="103.5" />
+    </edge>
+    <edge source="com.example.ecommerce.services.UserService" target="com.example.ecommerce.dto.user.UserDto" relationship="CREATE">
+      <point x="90.5" y="-164.5" />
+      <point x="3811.5" y="6103.0" />
+      <point x="3801.0" y="6103.0" />
+      <point x="3801.0" y="5683.0" />
+      <point x="3681.0" y="5683.0" />
+      <point x="0.0" y="164.5" />
+    </edge>
+    <edge source="com.example.ecommerce.services.OrderService" target="com.example.ecommerce.dto.orders.OrderItemDto" relationship="CREATE">
+      <point x="-107.0" y="-140.5" />
+      <point x="1154.0" y="6123.0" />
+      <point x="281.0" y="6123.0" />
+      <point x="281.0" y="6103.0" />
+      <point x="-159.0" y="6103.0" />
+      <point x="-159.0" y="4123.0" />
+      <point x="343.5" y="4123.0" />
+      <point x="-57.5" y="296.5" />
+    </edge>
+    <edge source="com.example.ecommerce.models.Order" target="com.example.ecommerce.models.OrderItem" relationship="TO_MANY">
+      <point x="105.75" y="308.5" />
+      <point x="2086.75" y="5583.0" />
+      <point x="1804.0" y="5583.0" />
+      <point x="83.0" y="-236.5" />
+    </edge>
+    <edge source="com.example.ecommerce.models.CartItem" target="com.example.ecommerce.models.Cart" relationship="TO_ONE">
+      <point x="72.5" y="224.5" />
+      <point x="2473.5" y="4283.0" />
+      <point x="2821.0" y="4283.0" />
+      <point x="2821.0" y="4463.0" />
+      <point x="2781.0" y="4463.0" />
+      <point x="0.0" y="-176.5" />
+    </edge>
+    <edge source="com.example.ecommerce.dto.orders.OrderDto" target="com.example.ecommerce.models.OrderStatus" relationship="TO_ONE">
+      <point x="0.0" y="-332.5" />
+      <point x="281.0" y="4843.0" />
+      <point x="461.0" y="4843.0" />
+      <point x="461.0" y="4183.0" />
+      <point x="1721.0" y="4183.0" />
+      <point x="0.0" y="116.5" />
+    </edge>
+    <edge source="com.example.ecommerce.controllers.CategoryController" target="com.example.ecommerce.services.CategoryService" relationship="TO_ONE">
+      <point x="0.0" y="-80.5" />
+      <point x="101.0" y="3103.0" />
+      <point x="821.0" y="3103.0" />
+      <point x="821.0" y="2563.0" />
+      <point x="566.5" y="2563.0" />
+      <point x="-74.5" y="-128.5" />
+    </edge>
+    <edge source="com.example.ecommerce.services.CartService" target="com.example.ecommerce.repositories.ProductRepository" relationship="TO_ONE">
+      <point x="109.25" y="-212.5" />
+      <point x="790.25" y="4963.0" />
+      <point x="881.0" y="4963.0" />
+      <point x="881.0" y="4343.0" />
+      <point x="1581.0" y="4343.0" />
+      <point x="0.0" y="103.5" />
+    </edge>
+    <edge source="com.example.ecommerce.models.Category" target="com.example.ecommerce.models.Product" relationship="TO_MANY">
+      <point x="84.25" y="248.5" />
+      <point x="2465.25" y="2323.0" />
+      <point x="2501.0" y="2323.0" />
+      <point x="0.0" y="-332.5" />
+    </edge>
+    <edge source="com.example.ecommerce.services.AuthService" target="com.example.ecommerce.repositories.ClientRepository" relationship="TO_ONE">
+      <point x="107.75" y="-164.5" />
+      <point x="2408.75" y="5603.0" />
+      <point x="3021.0" y="5603.0" />
+      <point x="3021.0" y="4443.0" />
+      <point x="2561.0" y="4443.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.example.ecommerce.services.ProductService" target="com.example.ecommerce.models.Product" relationship="CREATE">
+      <point x="110.75" y="-176.5" />
+      <point x="2071.75" y="3243.0" />
+      <point x="2081.0" y="3243.0" />
+      <point x="2081.0" y="3083.0" />
+      <point x="2501.0" y="3083.0" />
+      <point x="0.0" y="332.5" />
+    </edge>
+    <edge source="com.example.ecommerce.services.CategoryService" target="com.example.ecommerce.repositories.CategoryRepository" relationship="TO_ONE">
+      <point x="-74.5" y="-128.5" />
+      <point x="566.5" y="2083.0" />
+      <point x="561.0" y="2083.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="com.example.ecommerce.services.OrderService" target="com.example.ecommerce.errors.EmptyCartException" relationship="CREATE">
+      <point x="-107.0" y="-140.5" />
+      <point x="1154.0" y="6123.0" />
+      <point x="281.0" y="6123.0" />
+      <point x="281.0" y="6103.0" />
+      <point x="-19.0" y="6103.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="com.example.ecommerce.services.CartService" target="com.example.ecommerce.dto.cart.CartItemDto" relationship="CREATE">
+      <point x="-109.25" y="-212.5" />
+      <point x="571.75" y="4963.0" />
+      <point x="621.0" y="4963.0" />
+      <point x="621.0" y="4323.0" />
+      <point x="941.0" y="4323.0" />
+      <point x="941.0" y="3963.0" />
+      <point x="1018.75" y="3963.0" />
+      <point x="57.75" y="332.5" />
+    </edge>
+    <edge source="com.example.ecommerce.config.JwtRequestFiltering" target="com.example.ecommerce.utils.JwtUtil" relationship="TO_ONE">
+      <point x="0.0" y="-92.5" />
+      <point x="2661.0" y="5423.0" />
+      <point x="3061.0" y="5423.0" />
+      <point x="3061.0" y="5403.0" />
+      <point x="3261.0" y="5403.0" />
+      <point x="0.0" y="176.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.06849957130608753" showDependencies="true" x="2317.485021066448" y="4040.9578144319125" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

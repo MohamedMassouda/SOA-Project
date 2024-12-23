@@ -1,0 +1,95 @@
+POST localhost:8080/auth/login
+Content-Type: application/json
+
+{
+  "username": "monarch",
+  "password": "massouda123"
+}
+
+> {%
+    client.global.set("token", response.body.token);
+%}
+
+###
+GET localhost:8080/products
+Authorization: Bearer {{token}}
+
+###
+POST localhost:8080/products/bulk
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+[
+  {
+    "name": "Premium Coffee Maker",
+    "quantity": 50,
+    "price": 129.99,
+    "photo": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085",
+    "category_name": "Appliances"
+  },
+  {
+    "name": "Wireless Gaming Mouse",
+    "quantity": 200,
+    "price": 59.99,
+    "photo": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46",
+    "category_name": "Electronics"
+  },
+  {
+    "name": "Yoga Mat Premium",
+    "quantity": 150,
+    "price": 29.99,
+    "photo": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b",
+    "category_name": "Sports"
+  },
+  {
+    "name": "Smart LED Bulb Pack",
+    "quantity": 300,
+    "price": 39.99,
+    "photo": "https://images.unsplash.com/photo-1550525811-e5869dd03032",
+    "category_name": "Smart Home"
+  },
+  {
+    "name": "Organic Green Tea Box",
+    "quantity": 180,
+    "price": 15.99,
+    "photo": "https://images.unsplash.com/photo-1564890369478-c89ca6d9cde9",
+    "category_name": "Food & Beverages"
+  },
+  {
+    "name": "Leather Laptop Sleeve",
+    "quantity": 120,
+    "price": 45.99,
+    "photo": "https://images.unsplash.com/photo-1558589692-c040137c0d14",
+    "category_name": "Accessories"
+  },
+  {
+    "name": "Bluetooth Headphones",
+    "quantity": 250,
+    "price": 89.99,
+    "photo": "https://images.unsplash.com/photo-1583394838336-acd977736f90",
+    "category_name": "Electronics"
+  },
+  {
+    "name": "Stainless Steel Water Bottle",
+    "quantity": 400,
+    "price": 24.99,
+    "photo": "https://images.unsplash.com/photo-1602143407151-7111542de6e8",
+    "category_name": "Sports"
+  },
+  {
+    "name": "Mechanical Keyboard",
+    "quantity": 150,
+    "price": 119.99,
+    "photo": "https://images.unsplash.com/photo-1595225353945-388c5c0624c3",
+    "category_name": "Electronics"
+  },
+  {
+    "name": "Air Purifier",
+    "quantity": 80,
+    "price": 199.99,
+    "photo": "https://images.unsplash.com/photo-1626436819821-65c8d63689f4",
+    "category_name": "Appliances"
+  }
+]
+
+###
